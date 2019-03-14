@@ -66,7 +66,7 @@ type Attachment struct {
 	Fallback string `json:"fallback"`
 
 	CallbackID string `json:"callback_id,omitempty"`
-	ID         int    `json:"id,omitempty"`
+	ID         int    `json:"id,string,omitempty"`
 
 	AuthorID      string `json:"author_id,omitempty"`
 	AuthorName    string `json:"author_name,omitempty"`
